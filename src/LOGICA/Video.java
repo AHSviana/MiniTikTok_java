@@ -1,8 +1,11 @@
+package LOGICA;
+
 import java.util.ArrayList;
 import java.util.List;
 public class Video {
     private String titulo;
     private int id;
+    private static int nextid=1;
     private User dono;
     private List<User> listacurtidas = new ArrayList<>();
     private List<Comentarios> comentarios = new ArrayList<>();
